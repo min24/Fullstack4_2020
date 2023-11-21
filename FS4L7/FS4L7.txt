@@ -1,0 +1,18 @@
+
++ Tất cả các thuộc tính có xu hướng trôi lên phía trên
++ float: 
+    + là thuộc tính làm element trôi về phía nào
+    + khi float: làm thế nào để ko bị xuống dòng
+        + đặt %
+        + sử dụng fix một bên
+
++ muốn element thứ 2 ko chịu ảnh hưởng của float phí trước:
+    + clear: xóa sự ảnh hưởng của float của thành phần phía trước
+
++ khi element con dùng float thì element cha ko tính đc chiều cao 
+=> thêm thẻ div clear both để chặn ảnh hưởng của float tới element cha
+
++ Muốn để 2 cột dài bằng nhau/ màu nền 2 cột dài bằng nhau thì dùng fault collumns
+
++ reset css:
+    + viết đầu tiên: search code css reset trên gg, để đồng bộ tất cả các trình duyệt như nhau

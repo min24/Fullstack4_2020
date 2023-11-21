@@ -1,0 +1,42 @@
+
+Lap trinh huong doi tuong
++ Cuc ki quan trong
+
+Code xoay quanh cac doi tuong 
++ Doi tương: object: la 1 doan code the hien bat ky mot thuc the, vat the, con vat nao do trong cuoc song
+
++ class: lop: dinh nghia 
+    + Ben trong co:
+        + Ham: function, method 
+        + Bien: property: thuoc tinh 
+        + constructor: ham khoi tao 
+            + la 1 ham luon chay trc tat ca cac ham khac
+            + cac tham so cua constructor dc nhan tu khi khoi tao
+            + dung de chay cac ham khoi tao 
+            + la noi chua cac property 
+
++ instance: thuc the: la mot the hien cua class 
+    + tao instance bang tu hoa new
+    + 1 class co the tao nhieu instance 
+
+
++ return this: tra ve object hien tai de thuc hien method tiep 
+
+
+Ke thua:
++ class cha de class con
++ class con ke thua class cha 
++ extends
++ class con se co het cac thuoc tinh cua class cha
++ super(): goi constructor cua class cha 
+
+
+Rieng trong js:
++ Prototype: (nguyen mau)
+    + la 1 thuoc tinh 
+    + co ten la __proto__
+    + chua cac ham co san cua js 
+    + giau cac ham co san di de tranh bi thay doi 
+    + cac ham co san phu thuoc vao kieu cua Bien
+    
+

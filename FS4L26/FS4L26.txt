@@ -1,0 +1,58 @@
+Loop DOM
+
++ Loop:
++ for: 
+    + continue: bo qua phan duoi cua vong lap
+    + break: dung vong lap ngay lap tuc
+
++ while:
+    + lap khi dieu kien con dung
+    + dung khi ko biet chinh xac so vong lap
+    + can co dieu kien de dung vong lap, tranh lap mai mai
+
++ doWhile: giong while, nhug thuc hien trc roi moi kiem tra
+
++ forEach 
+
++ js DOM: Document object model
+    + tất cả mọi thứ trong html, css => đều là các object javascript
+
++ Các phương thức và thuộc tính:    
+    + đối tượng document 
+        + phương thức (method, hàm, fucnction)
+            + createElement(ten_tag)
+            + appendChild(): them 1 phan tu vao trag html 
+            + getElementById(): lay 1 the html co san vao 1 bien 
+            + getElementByClassName()
+            + getElementByTagName()
+            + querySelector(): dung css de tim, chi tra ve 1 
+            + querySelectorAll(): dung css de tim, tra ve nhieu 
+
+        + thuoc tinh:
+            + innerHTML: noi dung ben trong cua 1 the 
+            + style 
+
+
++ event:
+    + Tat ca cac element tren html deu co cac event 
+        + click: bam chuot xong nha ra 
+        + mousedown: bam chuot xuong
+        + mounseup: tha chuot ra 
+        + mouseover: di chuot tu ben ngoai vao 
+        + mouseout; di chuot tu ben trong ra
+
++ document:
+    + DOMDocumentReady: html da tai xong 
+    + load: toan bo trang da tai xong 
+
++ image:
+    + load: da tai anh xong
+
++ addEventListener(Ten_su_kien, fn_callback)
+
+Callback:
+    + Dong thoi gian
+
+Preload:
++ Khi vao 1 trang web => hiẹn loading 
++ load xong => mat loading

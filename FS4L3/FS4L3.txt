@@ -1,0 +1,23 @@
++ Selector: cách để css chọn ra một hoặc nhiều element
+    + chọn theo thẻ: p, span, div ...
+    + chọn theo ID: #ten_id
+    + chọn theo class: .ten_class
+
++ chọn thành phần nằm trong: dùng dấu cách 
++ chọn thành phần con trực tiếp: >
++ chọn nhiều điều kiện: viết các điều kiện liền nhau
++ chọn nhiều element: dấu phẩy
++ chọn theo thứ tự:
+    + li:first-child: thành phần đầu tiên
+    + li:last-child: thành phần cuối cùng
+    + li:nth-child(3): thành phần số mấy?
+    + li:nth-child(even): thành phần thứ tự chẵn
+    + li:nth-child(odd): thành phần thứ tự lẻ
+
++ chọn theo thuộc tính: dấu [thuoctinh=giaitri]
+input[id="uesrname"]
++ chọn 1 thành phần tiếp theo dùng dấu + selector
++ chọn nhiều thành phần tiếp theo
++ wildcat selector: * : tất cả
++ :not() => không phải
+ul li:not(:nth-child(2))

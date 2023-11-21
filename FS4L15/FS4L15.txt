@@ -1,0 +1,15 @@
+
+Cắt PSD to HTML
+
++ Lý thuyết
+    + Áp dụng
+
+- PSD to html
+    + file photoshop: PSD
+
++ Designer: những người thiết kế => vẽ giao diện trên photoshop
++ Đưa file psd cho dev frontend => cắt giao diện => html 
+
++ Tìm hiểu về photoshop 
+    + CS6 
+    +

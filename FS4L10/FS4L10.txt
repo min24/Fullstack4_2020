@@ -1,0 +1,39 @@
+FULLSTACK 4
+
++ flex
++ float 
++ background
++ position
+
+
+STATE
++ Các element trên trang web dev có state 
+    + hover: khi người dùng di chuột lên element
+        + có ở tất cả các element
+    + active:
+        Khi click vao button thi doi mau
+    + visited
+    + link
+    + focus
+        Element hien tai, tren trag web, tai 1 trang thai, chi co 1 element dc focus 
+
++ Dropdown menu:
+    + cap the huyen thoai: relative + absolute
+    
++ Pseudo-element:
+    + cung la element nhu cac the khac
+    + do CSS them vao
++ Co 2 Pseudo element:
+    + before
+    + after 
+
++ Cach tao hinh tam giac bang cach su dung box-model, setup border
+
+
+
++ float + clear
++ clearfix
+
++ BTVN: 
+    + thuc hanh dropdown menu, flyout menu 
+    + lam them tooltip

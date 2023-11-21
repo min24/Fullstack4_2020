@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+#ten_lop_hoc {
+    color: red;
+    font-size: 30px;
+
+}
+#loi_chao {
+    color: green;
+}
+.hoc_vien {
+    background: yellow;
+}
+#menu {
+    border: 2px solid red;
+}
+#menu li {
+    border-bottom: 1px solid green;
+}
+#quang_cao > div > div > p {
+    font-size: 25px;
+    color: red;
+}
+
+#quang_cao > p {
+    font-size: 25px;
+    color: blue;
+}
+#id {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+}
+#wrapper {
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+#wrapper div {
+    display: inline-block;
+    width: 33%;
+    border: 2px solid black;
+}

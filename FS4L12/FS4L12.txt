@@ -1,0 +1,16 @@
+Tao the switch, tab, hover ...
+
+
+Dua vao nhung element co ban
+=> tao ra cac element custom
+
++ VD tao checkbox giong trong iphone
++ Tab: su dung radio box 
+
++ search gg "web elements" de tim cac mau element khac
+
+
+Media query
+- css selector theo thiet bi
+- thiet ke web responsive
+- Break point ()

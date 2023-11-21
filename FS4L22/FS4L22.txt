@@ -1,0 +1,20 @@
+Javascript
+- chạy trên trình duyệt
+    + js 
+    + es6
+- js chạy trên server => học sau 
+
+Bắt đầu loạt javascript 
+- console.log(thong tin) 
+- Javascript: hoat dong ntn 
+    + js engine 
+    + doi tuong window: tat ca moi code js deu nam trong dtg window 
+    + bien: la 1 vung bo nho luu tru du lieu
+        + cach khai bao bien var name = "thong tin";
+                             let name = "thong tin";
+
++ Moi the html se bang 1 bien duoi javascript 
++ viet html => tao ra cac bien 
++ viet css => thay doi muc dich su dung cac bien 
+
++

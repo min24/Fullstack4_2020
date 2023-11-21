@@ -1,0 +1,62 @@
+5 thuộc tính quan trọng nhất của CSS
+
++ là những thuộc tính ảnh hưởng đến kich thước của element
+
++ width: chieu rong element
+    + gia tri px
+    + % cua element cha 
+        + position: fixed => % cua body
++ height: chieu cao element
+    + tu dong dai ra theo noi dung ben trong
+    + gia tri: px, %
++ padding: padding cua element
+    + padding-left
+    + padding-right
+    + padding-top
+    + padding-bottom
+
+    Chi viet: padding 
+        + 1 gia tri: tren duoi trai phai bằng nhau
+        + 2 giá trị
+        + 4 giá trị: trên phải dưới trái
+
++ border: duong vien
+    + cách viết tắt:
+        + border: [đọ dày] [kiểu] [mẫu đường viền]
+        Kiểu:
+            + solid
+            + dotted
+            + dashed
+        + border-left: [đọ dày] [kiểu] [mẫu đường viền]
+        + border-right: [đọ dày] [kiểu] [mẫu đường viền]
+        + border-top: [đọ dày] [kiểu] [mẫu đường viền]
+        + border-bottom: [đọ dày] [kiểu] [mẫu đường viền]
+
+        border-left-width: độ dày đường viền trái
+
++ box-sizing: quy dinh cach ma trinh duyet tinh toan kich thuoc cua element
+    + mac dinh: content-box => rong = border+padding+width 
+    box-sizing=border-box => rong = width
+
++ block và inline element
+    + Tất cả các thẻ html chia làm 2 loại:
+        + Block element
+             + la element mặc định rỗng 100%
+             + nằm trên 1 hàng riêng
+             + dùng để chứa các black và inline element khác
+             + div, h, ul, ol, li, header, foooter, sidebar
+
+        + Inline element   
+            + là element mặc định rộng bằng nội dung của nó
+            + chỉ chứa được các inline element
+            + a, span, label, input, button, select
+
+        + Riêng thẻ img, có trình duyệt hiểu là block, có cái hiểu là inline
+        display: block;
+    
++ thuộc tính display:
+    + block
+    + inline
+    + block-inline: hiển thị trên 1 dòng, nhưng có thể đặt width và height
+
+

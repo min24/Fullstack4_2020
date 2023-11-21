@@ -1,0 +1,77 @@
+- tạo file index.html
+- web sever: ưu tiên các file có tên là in dex
++ Cấu trúc html:
+    + gồm các thẻ <ten the>
+    + có 2 loại thẻ:
+        + thẻ mở: <ten the>
+        + thẻ đóng: </ten the>
+    + xuống dòng: giống như dấu cách
+
+
++ Các thẻ html cơ bản:
+    + 2 loại thẻ:
+        + thẻ nội dung:
+            + p: paragraph
+            + h: heading: ht -> h6
+            + img: image
+            + a: text chứa link đến 1 web khác
+                + href: thuộc tính link
+            + li: list
+            + input
+                + type = input/text/password/button/checkbox/radio, 
+                value = Dang nhap, 
+                placeholder = tencuaban
+                + label
+            + select
+                + option
+            + button
+        
+        + thẻ bao:
+            + div: xác định 1 vùng trên trang web
+            + header
+            + footer
+            + sidebar
+            + span: bao 1 đoạn văn bản, ko có tác dụng về mặt ngữ nghĩa
+            + ul: un-order list
+            + ol: order list
+            + form: chứa input, select, button
+
+
+Web developer tool : F12, inspect..
+
++ Phần HTML: ko cần phải lo, ko cần phải nhớ hết các thẻ 
+
+
++ Phần header:
+    + thẻ meta: đi cop của nhau cho nhanh
+    + thẻ link: link đến phần css
+    + thẻ <br>: xuống dòng, chỉ dùng trong đoạn văn bản
+
+
+CSS
++ Box model: 
+    + mô hình của 1 cái element
+    + mô hình hộp
+    + cấu tạo HCN:
+        + margin: khoảng cách với các element xung quanh
+        margin-left
+        margen-right
+        margin-top
+        margin-bottom
+        + border: đường viền
+        + padding: khoảng cách đường viền với nội dung
+        + with
+        + height
+
+    + mặc định: khoảng không gian chiếm chỗ của 1 element = tổng margin + padding + border + width
+
+
+BTVN: Viết html của 1 form đặt hàng
++ điền tên
++ điền địa chỉ 
++ điền số điện thoại
++ chọn giới tính
++ chọn vùng miền: hn, đn, tphcm
++ checkboxx: đồng ý với điều khoản sử dung
+ button
+ 

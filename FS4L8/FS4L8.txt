@@ -1,0 +1,80 @@
+flex-wrap:
+    + khi mà bị quá chiều rộng thì có xuống dòng hay ko
+
++ font: 
+    + Hiểu về font chữ
+    + font chữ: là một bộ hình ảnh các chữ cái+
+    + Gõ chữ trên máy tính: xếp các hình ảnh kề nhau
+    + windows: C:/windows/fonts
+    + linux: /usr/share/fonts
+    + Đuôi file font: ttf, eof
+    + font-size
+    + line: dòng chữ
+        Như các thẻ div, xếp sát nhau
+        + line-height: độ cao dòng chữ
+        các text đc căn vào giữa dòng
+    
+    + tạo các menu: thẻ a: line height = height
+    + Trick:
+        + Khi đặt height = line height thì text sẽ căn giữa theo chiều dọc
+        + letter-spacing: khoảng cách giứa các chữ cái
+        + word-spacing: khoang cach giua cac tu 
+        + word-break: break-all;
+
+    + font-family: dinh nghia cac font 
+        + danh sach cac font phan cach bang dau phay 
+        + cac ten font co dau cach: Nhay 
+        + sans-serif: font mac dinh 
+    + @font-face: dinh nghia ra 1 cai font 
+
+    + co 2 loai font:
+        + font co san: font co san tren may nguoi dung
+            + ko phai tai them 
+            + toc do nhanh 
+            + chua chac tren may nguoi dung da co font do 
+            + dung voi cac trang web can toc do cao, doc thong tin 
+        + web font:
+            + la nhung font nhung o tren wweb
+            khi nguoi dung xem trang web thi font se tai ve     
+            + hien thi dc tat ca cac font, ko yeu cau ng dung co font 
+            + ton thoi gian tai font 
+        
+        + icon font 
+
++ position: 
+    + la thuoc tinh chi dinh vi tri dat element
+
+    + fixed: nam chinh xac tuyet doi voi body 
+        + phai dat vi tri top va left, right, bottom cho no 
+        + thuong nam len phia tren cua cac element khac 
+
+    + sticky: nam bthg nhu cac element khac
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

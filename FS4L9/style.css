@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ads {
+    height: 250px;
+    background: yellow;
+}
+header {
+    background: black;
+    position: sticky;
+    top: 0px;
+}
+h1 {
+    color: white;
+}
+#wrapper {
+    background: yellow;
+    padding: 50px;
+    width: 800px;
+    margin: 20px;
+}
+#slider {
+    background: #f4f4f4;
+    width: 500px;
+    margin: 20px auto;
+    height: 350px;
+    border: 1px solid #dadada;
+    position: relative;
+}
+#prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+#box {
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 20px;
+    overflow: scroll;
+
+    background-attachment: scroll;
+    background: blue url(balloon.jpg) no-repeat left top;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+table {
+    border-collapse: collapse;
+}
+body {
+    width: 1000px;
+    padding: auto;
+    margin: auto;
+}
+div {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+h3 {
+    border: 1px solid black;
+    width: 200px;
+    display: inline;
+    text-decoration: line-through;
+    text-indent: 20px;
+}
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+}
+table {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+
+input[type=text] {
+    padding: 5px 10px;
+    border: 1px solid #adadad;
+    font-size: 15px;
+    min-width: 300px;
+
+}
+
+input[type=text].success {
+    border-color: green;
+}
+
+input[type=text].error {
+    border-color: red;
+}
+button {
+    border: 1px solid rgba(0,0,0,0.2);
+}
+button:hover {
+    border: 1px solid rgba(0,0,0,0.7);
+    background-color: wheat;
+} 

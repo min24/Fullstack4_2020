@@ -1,0 +1,8 @@
+
+forEach: ko dung de tinh toan, chi dung de lap qua va hien len giao dien trang web
+
++ Cang it li tu thi code cang de doc hon
+
+Bai toa ncong don => reduce 
+cong don 1 bien => cong don nhieu bien 
+reduce: ket qua vong lap truoc => input vong lap sau

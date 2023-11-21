@@ -1,0 +1,65 @@
+Cac thao tac voi bien trong js
++ Cac thao tac xu ly chuoi:
+    + Lay ra so luong ki tu: .length
+    + Noi chuoi: toan tu: + 
+    + Viet hoa: toUpperCase()
+    + Viet thuong: toLowerCase()
+    + Cai chuoi: subString()
+        + Cat ra 1 doan, subString(start, end);
+    + Cat chuoi theo vi tri va chieu dai: 
+        substr(start, length);
+        substr(-4): cat 4 ki tu cuoi cung 
+        substr(7): cat 7 ki tu dau tien 
+    
+    + Thay the:
+        + .replace(text_cu, text_moi)
+            + Chi thay dc chu dau tien
+        => tim hieu regular expression
+    
+    + .trim(): xoa cac ki tu trong 2 ben 
+    + .indexOf(): tim vi tri dau tien 
+    index: thu tu => bat dau tu 0 
+    + .lastIndexOf()
+
++ slice(4,6): cat 1 doan tu 4-6
+
++ charAt(2): ki tu thu may
+    character
+
++ split(Ky_tu_cat): 
+    Tra ve 1 mang
+
+
+Cac thao tac xu ly number
+Toan tu:
+    + toan tu toan hoc: + - * :
+    Chia lay du: %
+
+    + toan tu logic:
+        and, or, not 
+
++ Ham: function
+    + Ham la 1 doan code thuc hien 1 tac vu j do 
+
++ Tat ca moi thu trong js deu la bien 
+
++ Ham co the nhan cac tham so bien dau vao, phai theo thu tu 
++ Dau ra: return
+
++ Khi chuong trinh gap return => dung ham luon 
+
++ Khi viet cac ham phai su dung 1 cong cu build js khac, luu vao 1 file js khac
+
++ Ham ko ten (annonymous function)
++ Ham mui ten (arrow function)
+    + Neu chi co 1 tham so: ko can dau ngoac tron
+    + Ko ho tro cac trinh duyet cu 
+
+CAC THAO TAC VOI ARRAY 
+    + sot()
+    + reverse()
+    + reduce()
+    + map()
+    + forEach()
+    + every()
+    + filter()

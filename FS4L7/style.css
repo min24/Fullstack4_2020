@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    border: 1px solid red;
+    display: flex;
+}
+#wrapper div {
+    border: 1px solid black;
+
+}
+#sidebar1 {
+    flex-grow: 1;
+}
+#content {
+    flex-grow: 2;
+}
+
+#sidebar2 {
+    flex-grow: 1;
+}

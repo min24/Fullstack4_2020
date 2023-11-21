@@ -1,0 +1,46 @@
+
+Các kiểu của biến
+tên người: string
+địa chỉ: string (50 Vũ Trọng Phụng)
+điện thoại: string ()
+số cmnd:
+mã số sv: 
+
+console.log(typeof age);
+
+
++ number:
+    + integer: so thuc 
+    + float: so thap phan 
+
++ array: mang, la 1 bien chua nhieu gia tri 
+    + Moi gia tri dgl phan tu (item)
+    + Thong thuong, code pro => tao cac mang co cung kieu du lieu
+    + Mang dac biet: ko co phan tu
+    + Mang co cac phan tu la cac mang con 
+    + Mang 2 chieu: mang cua mang 
+    + Mang 3 chieu: mang cua mang cua mang 
+
++ object: Doi tuong, la 1 su vat, 1 cai gi do 
+    + Su dung cap dau { }
+
++ Undefined: la 1 bien dc tao ra nhung chua khai bao 
++ null: da khai bao => chua co gia tri 
++ NaN: not a number (xu ly tinh toan)
++ Boolean: chi co 2 gia tri true/false
++ Hang so: const PI = 3.14;
+    La hang so, ko the thay doi
+
+VD Quy dinh cac con so:
+    - nguoi dung bthg: 1
+    - moderator: 2
+    - admin: 3
+
+
++ cach chay cua js:
+    + chay tren trinh duyet
+        + JS DOM
+    + chay tren server: nodejs
+        + package: nodejs 
+
+

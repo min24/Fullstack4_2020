@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#title {
+    font-size: 30px;
+    color: green;
+    text-decoration: none;
+}
+
+#title:hover {
+    color: red;
+}
+#order {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#order:active {
+    background-color: red;
+}
+#order:focus {
+    background-color: blue;
+}
+#menu {
+    background-color: black;
+}
+
+#menu > li {
+    display: inline-block;
+    position: relative;
+}
+
+#menu > li > a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: wheat;
+    padding: 0px 25px;
+}
+#menu > li ul {
+    display: none;
+}
+#menu li:hover > ul {
+    display: block;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+#box {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+}
+#box::before {
+    content: "abc";
+    font-size: 20px;
+}
+#box::after {
+    content: "xyz";
+    font-size: 15px;
+    color: red;
+}
+#box2 {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+}
+#sidebar {
+    float: left;
+}
+#content {
+    float: right;
+}
+.clear::after {
+    content: " ";
+    clear: both;
+    height: 0px;
+    display: table;
+}
+
+#menu2 {
+    width: 300px;
+}
+
+#menu2 li a {
+    background: black;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    border-bottom: 1px solid #333333;
+    position: relative;
+}
+
+#menu2 li:last-child a {
+    border-bottom: none;
+}
+#menu2 li a::after {
+    content: " ";
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

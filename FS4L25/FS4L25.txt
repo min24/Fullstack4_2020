@@ -1,0 +1,33 @@
+CAC THAO TAC VOI ARRAY
+    + lay ra 1 phan tu cua array 
+    + lay ra so phan tu cua array 
+    + xoa phan tu cuoi cung: pop 
+        + .pop(): la ham tra ve phan tu cuoi cung 
+    + xoa 1 phan tu dau mang: shift()
+    + them 1 phan tu vao cuoi mang: 
+        + push()
+        tra ve so luong phan tu cua mang 
+    + them 1 phan tu vao dau mang 
+        + unshift
+
++ Xoa phan tu trong mang:
+    + splice(bat_dau, ket_thuc)
+
++ join(ky_tu): cong cac phan tu lai
+
++ sort()
++ reverse()
+
++ map():
+    + ban sao chep 1 mang sau khi chay qua 1 ham 
+
++ loop:
+
++ filter(): loc
++ forEach(): chay qua cac phan tu trong mang nhung ko tra ve 
++ every(): ktraa va tra ve true/false
+    true: khi tat ca true 
+    false: khi 1 trong cac phan tu false 
+
++ reduce(fn, start_value, )
+

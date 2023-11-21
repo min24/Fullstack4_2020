@@ -1,0 +1,62 @@
+IMAGE
+Các loại hình ảnh
++ .bmp: bitmap
+    là 1 loạt các pixel xếp hàng ngang dọc
++ .jpg: ảnh nền
+    giống bitmap, có hệ số nén cao
+    thíc hợp vs ảnh phong cảnh, màu ko đồng nhất
+    ko hỗ trợ ảnh trong suốt
++ .png: ảnh portable
+    có hệ số nén cao nếu có các vùng đồng màu
+    có hỗ trợ ảnh trong suốt
+
++ .gif: giống bitmap, có thể thể hiện ảnh ít màu tốt
+    hỗ trợ trong suốt
++ .webp: 
+    ảnh chuẩn của google (ít dùng)
++ .svg
+    dạng ảnh vector
+        ảnh hình toán học
+        rất nhẹ nếu dùng để lưu các hình đơn giản
+        Vd ảnh hình tròn, chỉ cần lưu:
+            bán kính, toạ độ tâm, màu hình tròn 
+        => sử dụng cho các icon
+        hỗ trợ trong suốt
+        ko chắc mọi trình duyệt hỗ trợ
+Ảnh:
+    lưu 1 pixel cần:
+        r
+        g
+        b
+        a (độ trong suốt)
+
+
+STYLE cho img:
+    + img là thẻ inline-block
+    + các trình duyệt hiểu thẻ img khác nhau
+    => nên đặt sẵn display là inline-block
+
++ đường dẫn tuyệt đối, tương đối (absolute/relative path)
+
+    + đặt đường dẫn sai
+    href cho file css
+    + tên file nen_dat_nhu_nay.png 
+        chữ thường ko dấu, ko chứa dấu cách
+        đuôi file chữ hoa chữ thường
+        (%20 là url encode của dấu cách)
+
++ C:\duan\anh\1.png
+Đường dẫn tương đối: 
+    Cùng cấp: chỉ cần ghi tên
+    Nằm trong thư mục khác:
+        image/anh/1.png 
+        ../image/anh/1.png : trở lại 1 cấp rồi mới tìm
+        ../../ : lên 2 cấp 
+
+Đường dẫn base url 
+    <base href="sdsds">
+    Là đường dẫn cơ bản cho tất các các đường dẫn trên trang web 
+    Áp dụng luôn cho tất cả các đường dẫn tương đối khác 
+    Ít dùng 
+    
+

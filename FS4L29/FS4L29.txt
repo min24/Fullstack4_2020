@@ -1,0 +1,28 @@
+
+Lap trinh huong doi tuong 
++ khong phu thuoc vao ngon ngu nào 
+
+Tao ra 1 select box:
+    + rat kho de style 
+
+Tao 1 class tab theo huong doi tuong 
+Tao 1 class modal theo huong doi tuong
+
+Callback, Promise
++ xu ly bat dong bo:
++ Dong bo:
+    + Code chay tu tren xuong duoi 
++ Bat dong bo:
+    + Chay den dong 3 => cho load anh xong 
+    + Chay dong 4
+
+CallStack
+Callback hell
+
+Tránh để bị block UI
+
+Callback hell:
+=> Promise: Loi hua 
+=> La 1 object co san trong js 
+=> Chuyen de xu ly bat dong bo
+=> Co 2 tham so constructor: resolve va reject 

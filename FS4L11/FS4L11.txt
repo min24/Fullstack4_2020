@@ -1,0 +1,32 @@
++ Text-align: can van ban, giong trong word
+    + left, right, justify-content
+    + anh huong den text, va cac thuoc tinh inline trong element 
+
+text-decoration
+
+
+overflow: Nội dung bên trong bị tràn ra ngoài
+    + scroll
+overflow-x, overflow-y
+
+opacity
+color
+shadow
+text-indent: đặt lề
+
++ khi sử dụng thẻ button, ko đc để trống nội dung, vì google sẽ đánh giá
+=> sử dụng text-indent để ẩn chữ đi (đẩy ra lề -1000000px)
+
+list-style:
+    + list-style-type: circle, square,
+
+border-collapse:
+    + hop nhat border cua thanh phan con va cha 
+
++ opacity: giá trị 0 - 1
++ border-radious: bo tron goc
++ shadow:
+    box-shadow: 1px 1px 0px black;
+    [lech trai phai] [lech tren duoi] [do lan toa] [mau]
+    text-shadow: -1px;1px 1px 0px black;
+    

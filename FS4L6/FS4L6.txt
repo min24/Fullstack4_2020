@@ -1,0 +1,44 @@
+
+
++ Flex: flex box
++ ko chắc chắn chạy đc trên 100% trình duyệt
++ Flex là mô hình dàn trang phổ biến trên mobile app, android, ios
++ De su dung flex: display: flex cho thg cha 
++ Trong flex neu chieu rong cacs element qua rong thi flex cac cuc element ko bij nhay xg dong 
+Neu noi dung qua dai thi chieu dai cua ca 3 cot deu tu dai ra bang nhau
++ Neu chieu rong element con ko dung het cua ele cha thi thua phan ben trai 
+
++ flex-grow: dinh nghia kieu lon len cua cac element
+    flex-grow: 1,2,3: chia chieu rong cua elementcha cho cac ele con theo ti le
+
+    + phan chia phan thua con lai cua ele cha 
+
++ flex-shrink: ngược lại với flex-grow, chia phần thiếu theo tỉ lệ
+
+
++ justify-content: đặt ở ele cha, xác định xem các ele con flex theo trục nào
+justify-content: flex-start, flex-end, center
+    + sắp xếp các ele con theo trục main
+align-item: flex-start, flex-end: tương tự justify-content nhưng theo trục dọc
+    + sắp xếp các ele theo trục cross
+    flex-start
+    flex-end
+    center
+
+
++ space-between: chia khoảng thừa vào các khoảng giữa các item
++ space-around: chia khoảng thừa vào xung quang các item
+
++ flex-direction: dinh nghia chieu cua truc main 
+    + xác định hướng toạ độ
+    collumn
+    collumn-reverse
+    row
+
++ flex-basis: 
+    + la kich thuoc cua item theo truc main
+
+
+
+
+

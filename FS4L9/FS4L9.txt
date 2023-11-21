@@ -1,0 +1,90 @@
+
+
++ position: 
+    + la thuoc tinh chi dinh vi tri dat element
+
+    + fixed: nam chinh xac tuyet doi voi body 
+        + phai dat vi tri top va left, right, bottom cho no 
+        + thuong nam len phia tren cua cac element khac 
+        + chieu rong cua element phu thuoc vao noi dung ben trong
+
+    + sticky: nam bthg nhu cac element khac
+    Neu nhu scroll chuot len thi ko the cuon dc nua 
+        + phai dat top 
+
+    + mac dinh: static
+    + relative: vi tri lien quan so voi thg cha 
+    + absolute: vi tri tuyet doi so voi thg cha 
+
++ cap: relative + absolute luon di voi nhau, 
+absolute tim cai relative gan nhat de tuan theo
+
+
++ background:
+    + nền 
+    + background-color: mau nen  
+    + background-image: url(hinh nen)
+    + background-repeat: 
+        + no-repeat, 
+        + repeat, 
+        + repeat-x, 
+        + repeat-y
+    + background-position:
+        + vi tri cua hinh nen 
+        + left-px, top-px 
+        + left/right/center top/bottom/center 
+    + background-size: 
+        + Kich thuoc cua anh nen
+        + cover: zoom ra sao cho full ca 2 chieu cuar element 
+        + contain: zoom ra sao cho full 1 chieu cua element 
+        + auto: mac dinh 
+        + kic thuoc rong - kich thuoc cao 
+
+    + background attachment:
+        + fixed: khi element scroll: dung im theo body 
+        + scroll: mac dinh 
+        + local: scroll theo element hien tai 
+
+    + Cach viet tat:
+        background: [mau] [anh nen] [position] [repeat]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
