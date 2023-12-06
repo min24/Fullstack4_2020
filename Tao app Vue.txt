@@ -1,0 +1,9 @@
+
+vue create [ten_app]
+
++ Muon su dung scss thi:
+npm install sass-loader
+npm install sass
+
++ su dung <style lang="scss" scoped> ...</style>
+để các css chỉ ảnh hưởng đến 1 component, ko bị ảnh hưởng đến các phần khác của code 

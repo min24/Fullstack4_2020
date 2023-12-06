@@ -1,0 +1,61 @@
+
++ component:
+    + La 1 tap hop cac the html
+    + Co 3 thanh phan:
+        + thanh phan hien thi
+        + thanh phan xu ly
+        + thanh phan style:
+            + css 
+            + scss: 
+                Neu dung scss thi ca them lang vao the style
+                <style lang="scss"> ...</style>
+            + scoped style: 
+            css cua tung component ko anh huong den cac component khac va tong the code
+            <style lang="scss" scoped> ...</style>
+
+    + Cac components thi tach biet nhau, 
+      
+    + Tao component:
+        + co the tu tao ra cac the html tuy y, tu dinh nghia 
+
+VD: tao the MenuT:
+    + vao muc components, tao file MenuT.vue, viet noi dung tuy y
+    + Vao App.vue, trong the script: 
+        import MenuT from './components/MenuT.vue';
+    + Trong muc export default them:
+        + components: {
+                        MenuT
+                        }
+    + Su dung the MenuT tren phan template cua App.vue 
+
+
+
+===> Ý tưởng:
+    + Tạo ra các component của riêng mình bằng các vue app trong mục components 
+    + Nhét các component đó vào template của App.vue khi cần 
+    => tự do, có thể tạo ra nhiều thứ tuỳ chỉnh
+
++ Lifecycle: vong doi cua 1 component
+
++ Hook
+
++ Mount:
+    + la qua trinh khoi tao va hien thi 1 component len html
+
++ Co the them cac ham created, mounted vao export default
+
+
++ method
+    + ham, function(){}
+
++ watch: 
+    + Hóng xem khi data thay doi thi se lam gi
+    + 2 tham số: newValue, oldValue
+    function(newValue, oldValue) {}
+
+
+BTVN: 
+toDo list
+
+
+    
