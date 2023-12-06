@@ -1,0 +1,28 @@
+Trong file vue:
+    + data must be a function 
+
++ Binding: 
+    + La viec thay doi html dua theo data 
+    + Day su thay doi tu du lieu len thanh phan hien thi 
+    + v-bind:
+        + v-bind:[ten thuoc tinh]=
+        viet tat:
+            :[ten thuoc tinh]=
+        + Gia tri cua v-bind
+            + neu la mot ten bien: => gia tri: gia tri cua data 
+            + neu gia tri v-bind la object => object dieu kien
+    + v-model:
+        + la cach de lien ket giua form element va data 
+        + Kieu du lieu cua data => Tuy thuoc vao loai element
+
++ Event: 
+    + v-on:[ten_event]
+    @[ten_event]
+
+v-show: chi dinh 1 element co hien thi hay ko (boolean)
+
+
+# Tao ra 1 app ghi chep, todo app 
+Vong lap:
+    + v-for
+ 

@@ -1,0 +1,63 @@
+
+Vue js:
+    + Framework javascript 
+    + 
+
+React:
+
+Hoc js framework:
+    + tìm hiểu các khái niệm của nó
+    + Bị nhiều khái niệm đến cùng một lúc
+    + Học cách cài đặt đầu tiên
+
+Cài đặt Vue js:
+    + 2 cách cài đặt
+        + dùng 1 file js
+        + dùng cli 
+    
+
+js hướng đối tượng:
++ class website:
+    + menu
+    + network 
+    + sidebar
+    + modal 
+
+
+Vue:
+    + Cai dat 
+
++ Doi tuong Vue(options)
+    + el (element):  trong 1 ung dung vue co 1 element goc
+    => root element 
++ Xuat mot du lieu len html: {{ }}
+    // div.innerHTML = "uvibojpoji"
+
++ data:
+    + la cac thuoc tinh (property) cua doi tuong vue 
+    + data => hien thi len html bang dau {{ }}
+
++ 2 ways binding:
+    + Khi o tren html thay doi => duoi js thay doi
+    + Khi duoi js thay doi => html thay doi
+
++ Model:
+    + Meu: La mot cach thuc lien ket giua element html va js 
+
++ v-show :
+    + element se hien thi khi gia tri la True
+
+
+Vue-cli:
+    Cai dat project: vue create [ten_project]
+    + babel: cong cu build js, giong webpack 
+    + eslint: la mot cong cu sua loi
+    + serve: tao ra 1 server + watch 
+
++ File .vue:
+    + 3 phan:
+        + thanh phan hien thi: html
+        + thanh phan xu ly: js 
+        + style: css 
+    + Khi file.vue => build ra =? tu dong nhat js rieng, css rieng, html rieng 
+    

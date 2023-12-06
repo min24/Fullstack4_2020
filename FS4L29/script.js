@@ -27,27 +27,19 @@ var selectCity = new selectbox('city');
 
 var imgUrl = "https://noithatbinhminh.com.vn/wp-content/uploads/2022/08/anh-dep-28.jpg"
 
-function loadImage(url, callback) {
-  var img = new Image();
-  img.onload = function() {
-    successCallback();
-  }
-  img.onerror = function() {
-    errorCallback();
-  }
-  img.src = imgUrl;
-
-}
-
-
+var images = [
+  'https://www.elle.vn/wp-content/uploads/2017/07/25/hinh-anh-dep-1.jpg',
+  'https://www.elle.vn/wp-content/uploads/2017/07/25/hinh-anh-dep-3.jpg',
+  'https://www.elle.vn/wp-content/uploads/2017/07/25/hinh-anh-dep-6.jpg'
+]
 
 // load xong ảnh 1 thì load ảnh 2
 // load xong ảnh 2 thì load ảnh 3
 // ...
 
-function loadImage() {
+function loadImage(url) {
   
-  return new Promise(function(resolve, reject, imgUrl) {
+  return new Promise(function(resolve, reject) {
     var img = new Image();
     img.onload = function() {
       resolve();
@@ -55,13 +47,21 @@ function loadImage() {
     img.onerror = function() {
       reject();
     }
-    img.src = imgUrl;
+    img.src = url;
   });
 }
 
-loadImage(imgUrl).then(function() {
-  console.log('load image thanh cong');
+var allImageLoadPromises = [];
+
+for (var i = 0; i < images.length; i++){
+  var imgPromise = loadImage(images[i]);
+  allImageLoadPromises.push(imgPromise);
+}
+
+Promise.all(allImageLoadPromises)
+.then( function() {
+  console.log('load tat ca anh thanh cong');
 })
-.catch(function() {
-  console.log('load image error');
-});
+.catch( function() {
+  console.log('Load anh that bai');
+})

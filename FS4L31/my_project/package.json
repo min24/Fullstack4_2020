@@ -1,0 +1,23 @@
+{
+  "name": "btvn",
+  "version": "1.0.0",
+  "description": "btvn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development",
+    "watch": "webpack --config webpack.config.js --watch --progress --mode development"
+    
+  },
+  "keywords": [
+    "btvn"
+  ],
+  "author": "duy",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "webpack": "^5.89.0"
+  }
+}

@@ -1,0 +1,24 @@
+
+Promise: 
+
+Promise.all() :
+    + nhan vao 1 mang cac promise
+    + thanh cong khi toan bo cac promise con thanh cong 
+    + Ko dam bao thu tu
+    + tra ve 1 Promise
+
+Promise.any:
+    + thanh cong khi co it nhat 1 Promise thanh cong 
+    
+Promise.race:
+    + nhan vao 1 mang cac promise 
+    + ket qua tra ve la cai Promise dau tien thanh cong 
+
+    + dung khi load 1 anh:
+        + sever 1 chap chon 
+
+async va await:
+    + 
+
+
+Doc du lieu trong db

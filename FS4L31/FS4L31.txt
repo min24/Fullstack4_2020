@@ -1,0 +1,111 @@
+
+Bai tap:
+    + Cai dat, cau hinh mot project npm
+    + Cai dat webpack 
+    + Cau hinh webpack build ra file /js/bundle.js 
+    + Cau hinh webpack
+
+// ===========================
+
++ tạo thư mục project: my_project
++ vao my_project:
+
+npm init => có file package.json
+
++ tạo thư mục dist, 
+  thư mục js có trong dist, 
+  tạo file bundle.js trong thư mục js 
+
+npm install jquery 
+npm install webpack
+
++ tạo file webpack.config.js 
+copy code bundle it trên website webpack để paste vào 
+
++ Tạo folder: src, file: index.js 
+Sửa nội dung index.js:
+    var jquery = require('jquery');
+    var lodash = require("lodash");
+    ....
+
++ sửa nội dung webpack.config.js:
+    entry: './src/index.js'
+    filename: 'js/script.js'
+  
++ tạo các lệnh npm trong package.json:
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development",
+    "watch": "webpack --config webpack.config.js --watch --progress --mode development"
+    
+
+
+
+
+
+
+Node js
+
++ viet code js, css 
++ Nhung file js vao html 
+
++ Nhieu file js => compile code js => file bundle => file dich 
++ Buoc vao he sinh thai cua js 
+
++ Co nhieu thu vien 
++ Cai dat, xoa, update cac thu vien 
+
+NPM: node package manager (trinh quan ly goi nodejs)
+
++ Phan mem:
+    + Viet bang js 
+    + dung de quan ly cac goi (package, thu vien) javascript
+
+VD dự án muốn sử dụng: 
+    + jquery
+    + Lodash 
++ Su dung cmd 
+    + cong cu dong lenh 
+    + cd: change directory
+    + ls: hien thi danh sach file 
+
++ Cai node js => da co npm 
++ Cai npm 
++ Su dung npm 
+    + npm -v: xem version 
+    + npm init: khoi tao du an 
+    + npm install jquery: cai dat goi jquery
+
+    + npm remove [ten_goi] : xoa mot goi 
+    + npm run [ten_goi] : Run 1 script
+
+    + npm install: cai dat tat ca cac goi co trong package.json 
+
+
++ json: la 1 dinh dang file 
++ package.json: la file cau hinh cua du an js 
+    + dependencies: la cac goi dc su dung tren moi truong production
+    + la danh sach cac goi 
+    + --save: luu vao dependencies 
+    + --save-dev: luu vao dev dependencies
+
+    + devDependencies: la thu muc chua cac goi thu vien khi lap trinh, ko xuat hien trong moi truong production 
+
+
++ cac lenh dc tao san: 
+
++ node_modules la thu muc chua toan bo cac thu vien
+
++ package-lock.json:
+
++ cai dat local: chi su dung dc trong thu muc du an 
++ cai dat global: dung dc trong moi thu muc tren may 
+
+
++ Su dung cac goi ntn 
++ Build cac file js ntn 
++ Viet code js theo module 
++ Webpack: la mot goi package
+
+
++ chi code trong thu muc src:
+    + code xong thi chay: npm run build 

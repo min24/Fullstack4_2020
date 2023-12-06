@@ -26,3 +26,21 @@ Callback hell:
 => La 1 object co san trong js 
 => Chuyen de xu ly bat dong bo
 => Co 2 tham so constructor: resolve va reject 
+
+
+Promise: 
+
+Promise.all() :
+    + nhan vao 1 mang cac promise
+    + thanh cong khi toan bo cac promise con thanh cong 
+    + Ko dam bao thu tu
+
+Promise.any:
+    + thanh cong khi co it nhat 1 Promise thanh cong 
+    
+Promise.race:
+    + nhan vao 1 mang cac promise 
+    + ket qua tra ve la cai Promise dau tien thanh cong 
+
+    + dung khi load 1 anh:
+        + sever 1 chap chon 

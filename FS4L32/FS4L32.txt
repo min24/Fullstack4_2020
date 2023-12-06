@@ -1,0 +1,47 @@
++ Các lệnh tạo sẵn
++ Su dung các gói ntn 
++ Build các file js ntn 
++ Viết code js theo module 
+
++ Webpack: Là một gói package 
++ webpack.config.js: file cấu hình của webpage 
++ watch: 
+
++ import và export (es6)
++ export module và require (common js)
+
++ Gần giống nhau
++ Thấy ngta sử dụng như nào thì mình làm như thế
+
++ khi viết code có nhiều class, gom thành các file để trong thư mục modules
+khi nào cần thì import vào code, cho gọn code
+
+export:
+    + export ra mot object => import {ten cac property}
+    + import { * } => import tat ca cac property 
+    + export default:
+        + export chỉ 1 cái
+
+require:
+    + sao chep code từ file khác sang
+    + 
+
+Vue js:
+    + Framework javascript 
+    + 
+
+React:
+
+Hoc js framework:
+    + tìm hiểu các khái niệm của nó
+    + Bị nhiều khái niệm đến cùng một lúc
+    + Học cách cài đặt đầu tiên
+
+Cài đặt Vue js:
+    + 2 cách cài đặt
+    
+
+VD event:
+    + click xảy ra: 
+        + show thông báo
+        + DOM element 
