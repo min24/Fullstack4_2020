@@ -1,4 +1,7 @@
 
+install vue globally:
+    + npm install -g @vue/cli
+
 vue create [ten_app]
 
 + Muon su dung scss thi:

@@ -1,0 +1,11 @@
+props:
+    + gia tri lay tu ben ngoai vao
+    + prop: chi co the thay doi ben trong 
+    + Giong het nhu data
+    + Prop chi co the truyen 1 chieu 
+    + Cach khai bao prop:
+        + dung 1 mang cac ten cua prop
+
+
+assign by value: tham tri
+assign by reference: tham chieu

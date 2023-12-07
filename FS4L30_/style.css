@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.selectbox {
+    display: inline-block;
+    border: 1px solid #444;
+    position: relative;
+}
+.selectbox > span {
+    display: block;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.selectbox > div {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    border: 1px solid #e7e7e7;
+    min-width: 100%;
+    display: none;
+}
+.selectbox.opened > div {
+    display: block;
+}
+.selectbox > div > div {
+    border-bottom: 1px solid #ebebeb;
+}
+.selectbox > div > div:hover {
+    background-color: #ebebeb;
+}
